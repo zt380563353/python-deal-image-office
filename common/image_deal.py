@@ -3,7 +3,7 @@
 import matplotlib.pyplot as plt  # 导入模块
 import numpy as np
 
-#生成前十条数据柱状图
+#生成柱状图
 def write_histogram_jpg(data: dict, fileAllPath):
     # 1）创建画布(容器层)
     plt.figure("不同源ip的日志个数", figsize=(12, 9))  # 10为绘图对象长度，5为宽度
