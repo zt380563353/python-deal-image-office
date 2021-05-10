@@ -18,7 +18,6 @@ if __name__ == "__main__":
 
     fileAllPath = os.path.join(current_path)
 
-
     write_histogram_jpg(data_dict, os.path.join(current_path, "histogram.jpg"))
 
     write_pieChart_jpg(data_dict, os.path.join(current_path, "pieChart.jpg"))
