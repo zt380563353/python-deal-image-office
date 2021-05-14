@@ -47,7 +47,7 @@ def make_docx(data, fileAllPath):
         srcIP = data_detail.get("srcIP")
         if srcIP not in srcIP_list:
             srcIP_list.append(srcIP)
-            srcIP_dict[srcIP] = 0
+            srcIP_dict[srcIP] = 1
         else:
             srcIP_dict[srcIP] += 1
 
